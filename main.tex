@@ -11,18 +11,24 @@
 \maketitle
 %\tableofcontents
 
-\input{1/main.tex}
+\begin{lilypond}
+\relative c' {
+\time 4/4
+\key c \minor
+< c ees g>4
+< c ees a>4
+< d g b>4
+< d f b>4
+< c ees g c>1
+}
+\end{lilypond}
 
-Test.
-%\part{}
-%  \chapter{}
-%    \section{}
-    
+\input{1/main.tex}
+\input{2/main.tex}
+\input{3/main.tex}
+\input{4/main.tex}
 
 \end{document}
-
-
-
 
 
 
