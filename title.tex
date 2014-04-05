@@ -1,0 +1,54 @@
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because \\
+% only works if a paragraph has started.
+%\includegraphics[width=0.15\textwidth]{./logo}~\\[1cm]
+
+%\textsc{\LARGE University of Beer}\\[1.5cm]
+
+%\textsc{\Large Final year project}\\[0.5cm]
+
+% Title
+\vspace*{6cm}
+\HRule \\[0.4cm]
+{ \huge \bfseries Jim's grammar lessons \\[0.4cm] }
+
+\HRule \\[1.5cm]
+
+% Authors
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+Jim Lynch\\
+\texttt{jimlynch@netcom.com}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+Joel Sjogren\\
+\texttt{joelsjogren.wii@gmail.com}
+\end{flushright}
+\end{minipage}
+
+\vspace{1cm}
+\begin{center}
+  \begin{lilypond}
+  \relative c' {
+  \time 4/4
+  \key c \minor
+  < c ees g>4
+  < c ees a>4
+  < d g b>4
+  < d f b>4
+  < c ees g c>1
+  }
+  \end{lilypond}
+\end{center}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}

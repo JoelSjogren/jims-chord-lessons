@@ -1,35 +1,27 @@
-\documentclass[a4paper]{memoir}
+\documentclass[a4paper]{article}
 \usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
 \usepackage{amsmath}
 \usepackage{arydshln}
 \usepackage{multicol}
 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
 \begin{document}
+\input{title.tex}
 
-\title{Jim's grammar lessons}
-\author{
-  Jim Lynch\\
-  \texttt{jimlynch@netcom.com}
-  \and
-  Joel Sjogren\\
-  \texttt{joelsjogren.wii@gmail.com}
-}
-\date{\today}
-\maketitle
+%\title{Jim's grammar lessons}
+%\author{
+%  Jim Lynch\\
+%  \texttt{jimlynch@netcom.com}
+%  \and
+%  Joel Sjogren\\
+%  \texttt{joelsjogren.wii@gmail.com}
+%}
+%\date{\today}
+%\maketitle
+%\thispagestyle{empty}
 %\tableofcontents
-
-\begin{lilypond}
-\relative c' {
-\time 4/4
-\key c \minor
-< c ees g>4
-< c ees a>4
-< d g b>4
-< d f b>4
-< c ees g c>1
-}
-\end{lilypond}
-
+%\newpage
 \renewcommand{\labelitemi}{$\circ$}
 
 \input{1.tex}
